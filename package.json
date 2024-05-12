@@ -4,13 +4,13 @@
     "description": "",
     "main": "app.js",
     "scripts": {
-    "test": "echo && exit 1",
-    "dev": "node app.js"
+        "test": "echo && exit 1",
+        "dev": "nodemon app.js"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
-    "node": "^3.1.0"
+        "nodemon": "^3.1.0"
     }
 }
