@@ -9,6 +9,6 @@ async function defaultRouteController(res, url) {
         res.statusCode = 404;
         res.end("Not Found");
     }
-}
+};
 
 module.exports = defaultRouteController;
